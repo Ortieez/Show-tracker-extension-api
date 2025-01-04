@@ -46,8 +46,8 @@ type IDRequest struct {
 }
 
 var (
-	searchCacheFile  = "search_cache.json"
-	detailsCacheFile = "details_cache.json"
+	searchCacheFile  = "/app/cache/search_cache.json"
+	detailsCacheFile = "/app/cache/details_cache.json"
 	cacheMutex       sync.Mutex
 )
 
